@@ -25,6 +25,17 @@ class TestCase extends OrchestraTestCase
     }
 
     /**
+     * Define database migrations.
+     *
+     * @return void
+     */
+    protected function defineDatabaseMigrations()
+    {
+        $this->artisan('vendor:publish', ['--tag' => 'transcription-migrations']);
+        $this->loadLaravelMigrations();
+    }
+
+    /**
      * @param \Illuminate\Foundation\Application $app
      * @return array
      */
