@@ -8,7 +8,7 @@ An extension of [Laravel Transcription package](https://github.com/OnrampLab/lar
 
 ## Requirements
 
-- PHP >= 8.0;
+- PHP >= 8.1;
 - composer.
 
 ## Features
