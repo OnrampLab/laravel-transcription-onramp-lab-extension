@@ -1,48 +1,49 @@
-# laravel-package-template
+# laravel-transcription-onramp-lab-extension
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![CircleCI](https://circleci.com/gh/OnrampLab/laravel-package-template.svg?style=shield)](https://circleci.com/gh/OnrampLab/laravel-package-template)
-[![Total Downloads](https://img.shields.io/packagist/dt/onramplab/laravel-package-template.svg?style=flat-square)](https://packagist.org/packages/onramplab/laravel-package-template)
+[![CircleCI](https://circleci.com/gh/OnrampLab/laravel-transcription-onramp-lab-extension.svg?style=shield)](https://circleci.com/gh/OnrampLab/laravel-transcription-onramp-lab-extension)
+[![Total Downloads](https://img.shields.io/packagist/dt/onramplab/laravel-transcription-onramp-lab-extension.svg?style=flat-square)](https://packagist.org/packages/onramplab/laravel-transcription-onramp-lab-extension)
 
-If you are trying to create a new PHP Laravel package, whether it is going to be submitted to packagist.org or just to exist in your Github account, this template package of files will surely help you make the process a lot easier and faster.
+An extension of [Laravel Transcription package](https://github.com/OnrampLab/laravel-transcription) built for OnrampLab
 
 ## Requirements
 
-- PHP >= 8.0;
-- composer.
+- PHP >= 8.1
+- composer
 
 ## Features
 
-- PSR-4 autoloading compliant structure;
-- PSR-2 compliant code style;
-- Unit-Testing with PHPUnit 6;
-- Comprehensive guide and tutorial;
-- Easy to use with any framework or even a plain php file;
-- Useful tools for better code included.
+- Provide custom classes implemented for transcription use case in OnrampLab
+  - audio transcriber
 
 ## Installation
 
 ```bash
-composer create-project onramplab/laravel-package-template yourproject
+composer require onramplab/laravel-transcription-onramp-lab-extension
 ```
 
-This will create a basic project structure for you:
+## Usage
 
-* **/build** is used to store code coverage output by default;
-* **/src** is where your codes will live in, each class will need to reside in its own file inside this folder;
-* **/tests** each class that you write in src folder needs to be tested before it was even "included" into somewhere else. So basically we have tests classes there to test other classes;
-* **.gitignore** there are certain files that we don't want to publish in Git, so we just add them to this fle for them to "get ignored by git";
-* **CHANGELOG.md** to keep track of package updates;
-* **CONTRIBUTION.md** Contributor Covenant Code of Conduct;
-* **LICENSE** terms of how much freedom other programmers is allowed to use this library;
-* **README.md** it is a mini documentation of the library, this is usually the "home page" of your repo if you published it on GitHub and Packagist;
-* **composer.json** is where the information about your library is stored, like package name, author and dependencies;
-* **phpunit.xml** It is a configuration file of PHPUnit, so that tests classes will be able to test the classes you've written;
-* **.travis.yml** basic configuration for Travis CI with configured test coverage reporting for code climate.
+### Audio Transcriber
 
-Please refer to original [article](http://www.darwinbiler.com/creating-composer-package-library/) for more information.
+The `OnrampLabWhisperAudioTranscriber` class is using our company's AWS Lambda function to transcribe audio with Open AI Whisper. You can check out [repository](https://github.com/OnrampLab/open-ai-whisper-lambda-function) for more information.
 
-## Useful Tools
+In order to use this transcriber, you should add transcriber driver configuration in _Available Transcribers_ section of your `config/transcription.php` configuration file.
+
+```php
+'transcription' => [
+  'transcribers' => [
+      'onramp_lab_whisper' => [
+          'driver' => 'onramp_lab_whisper',
+          'access_key' => env('AWS_ACCESS_KEY_ID'),
+          'access_secret' => env('AWS_SECRET_ACCESS_KEY'),
+          'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
+      ],
+  ],
+],
+```
+
+> The driver name should always be **onramp_lab_whisper**.
 
 ## Running Tests:
 
@@ -76,7 +77,7 @@ Please refer to original [article](http://www.darwinbiler.com/creating-composer-
 
 ## Changelog
 
-To keep track, please refer to [CHANGELOG.md](https://github.com/onramplab/laravel-package-template/blob/master/CHANGELOG.md).
+To keep track, please refer to [CHANGELOG.md](https://github.com/onramplab/laravel-transcription-onramp-lab-extension/blob/master/CHANGELOG.md).
 
 ## Contributing
 
@@ -88,8 +89,8 @@ To keep track, please refer to [CHANGELOG.md](https://github.com/onramplab/larav
 6. Push to the branch (git push origin my-new-feature).
 7. Create new pull request.
 
-Also please refer to [CONTRIBUTION.md](https://github.com/onramplab/laravel-package-template/blob/master/CONTRIBUTION.md).
+Also please refer to [CONTRIBUTION.md](https://github.com/onramplab/laravel-transcription-onramp-lab-extension/blob/master/CONTRIBUTION.md).
 
 ## License
 
-Please refer to [LICENSE](https://github.com/onramplab/laravel-package-template/blob/master/LICENSE).
+Please refer to [LICENSE](https://github.com/onramplab/laravel-transcription-onramp-lab-extension/blob/master/LICENSE).

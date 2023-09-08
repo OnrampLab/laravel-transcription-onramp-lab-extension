@@ -1,0 +1,517 @@
+{
+  "text": " One of the most famous landmarks on the borders, it's three hills and the myth is that Merlin, the magician, split one hill into three and left two hills at the back of us which you can see. The weather's never good though, we stay on the borders if the mist's on the Yieldens, we never get the good weather. And as you can see today, there's no sunshine. It's a typical Scottish Borders day. Fantastic!",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.52,
+      "end": 10.86,
+      "text": " One of the most famous landmarks on the borders, it's three hills and the myth is that Merlin, the magician, split one hill into three and left two hills at the back of us which you can see.",
+      "tokens": [
+        50364, 1485, 295, 264, 881, 4618, 26962, 82, 322, 264, 16287, 11, 309,
+        311, 1045, 21379, 293, 264, 9474, 307, 300, 6124, 5045, 11, 264, 38614,
+        11, 7472, 472, 10997, 666, 1045, 293, 1411, 732, 21379, 412, 264, 646,
+        295, 505, 597, 291, 393, 536, 13, 50914
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3381785246042105,
+      "compression_ratio": 1.7148936170212765,
+      "no_speech_prob": 0.42575791478157043,
+      "words": [
+        {
+          "word": " One",
+          "start": 0.52,
+          "end": 0.92,
+          "probability": 0.36032533645629883
+        },
+        {
+          "word": " of",
+          "start": 0.92,
+          "end": 0.98,
+          "probability": 0.9936724901199341
+        },
+        {
+          "word": " the",
+          "start": 0.98,
+          "end": 1.12,
+          "probability": 0.9931519031524658
+        },
+        {
+          "word": " most",
+          "start": 1.12,
+          "end": 1.32,
+          "probability": 0.9935975074768066
+        },
+        {
+          "word": " famous",
+          "start": 1.32,
+          "end": 1.64,
+          "probability": 0.9981264472007751
+        },
+        {
+          "word": " landmarks",
+          "start": 1.64,
+          "end": 2.22,
+          "probability": 0.9697907269001007
+        },
+        {
+          "word": " on",
+          "start": 2.22,
+          "end": 2.36,
+          "probability": 0.9416682720184326
+        },
+        {
+          "word": " the",
+          "start": 2.36,
+          "end": 2.46,
+          "probability": 0.9948110580444336
+        },
+        {
+          "word": " borders,",
+          "start": 2.46,
+          "end": 2.72,
+          "probability": 0.3994966447353363
+        },
+        {
+          "word": " it's",
+          "start": 2.96,
+          "end": 3.06,
+          "probability": 0.7573829293251038
+        },
+        {
+          "word": " three",
+          "start": 3.06,
+          "end": 3.24,
+          "probability": 0.6177502274513245
+        },
+        {
+          "word": " hills",
+          "start": 3.24,
+          "end": 3.58,
+          "probability": 0.9876759052276611
+        },
+        {
+          "word": " and",
+          "start": 3.58,
+          "end": 4.28,
+          "probability": 0.4732585847377777
+        },
+        {
+          "word": " the",
+          "start": 4.28,
+          "end": 4.36,
+          "probability": 0.993050217628479
+        },
+        {
+          "word": " myth",
+          "start": 4.36,
+          "end": 4.5,
+          "probability": 0.9842318296432495
+        },
+        {
+          "word": " is",
+          "start": 4.5,
+          "end": 4.76,
+          "probability": 0.9903262257575989
+        },
+        {
+          "word": " that",
+          "start": 4.76,
+          "end": 4.98,
+          "probability": 0.9678294062614441
+        },
+        {
+          "word": " Merlin,",
+          "start": 4.98,
+          "end": 5.44,
+          "probability": 0.7948185503482819
+        },
+        {
+          "word": " the",
+          "start": 5.58,
+          "end": 5.68,
+          "probability": 0.9377250671386719
+        },
+        {
+          "word": " magician,",
+          "start": 5.68,
+          "end": 6.06,
+          "probability": 0.8629880547523499
+        },
+        {
+          "word": " split",
+          "start": 6.34,
+          "end": 6.5,
+          "probability": 0.9552963376045227
+        },
+        {
+          "word": " one",
+          "start": 6.5,
+          "end": 6.78,
+          "probability": 0.9857898354530334
+        },
+        {
+          "word": " hill",
+          "start": 6.78,
+          "end": 6.94,
+          "probability": 0.960910439491272
+        },
+        {
+          "word": " into",
+          "start": 6.94,
+          "end": 7.18,
+          "probability": 0.9635592699050903
+        },
+        {
+          "word": " three",
+          "start": 7.18,
+          "end": 7.62,
+          "probability": 0.9814183712005615
+        },
+        {
+          "word": " and",
+          "start": 7.62,
+          "end": 8.2,
+          "probability": 0.6184784173965454
+        },
+        {
+          "word": " left",
+          "start": 8.2,
+          "end": 8.5,
+          "probability": 0.2320389598608017
+        },
+        {
+          "word": " two",
+          "start": 8.5,
+          "end": 8.76,
+          "probability": 0.45507851243019104
+        },
+        {
+          "word": " hills",
+          "start": 8.76,
+          "end": 9.04,
+          "probability": 0.9688056111335754
+        },
+        {
+          "word": " at",
+          "start": 9.04,
+          "end": 9.28,
+          "probability": 0.9089524745941162
+        },
+        {
+          "word": " the",
+          "start": 9.28,
+          "end": 9.36,
+          "probability": 0.9975588321685791
+        },
+        {
+          "word": " back",
+          "start": 9.36,
+          "end": 9.56,
+          "probability": 0.9974716901779175
+        },
+        {
+          "word": " of",
+          "start": 9.56,
+          "end": 9.68,
+          "probability": 0.9396275877952576
+        },
+        {
+          "word": " us",
+          "start": 9.68,
+          "end": 9.82,
+          "probability": 0.943554162979126
+        },
+        {
+          "word": " which",
+          "start": 9.82,
+          "end": 9.94,
+          "probability": 0.6441686153411865
+        },
+        {
+          "word": " you",
+          "start": 9.94,
+          "end": 10.04,
+          "probability": 0.9067673087120056
+        },
+        {
+          "word": " can",
+          "start": 10.04,
+          "end": 10.32,
+          "probability": 0.9971554279327393
+        },
+        {
+          "word": " see.",
+          "start": 10.32,
+          "end": 10.86,
+          "probability": 0.998374342918396
+        }
+      ],
+      "speaker_label": "speaker_1"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 11.14,
+      "end": 19.88,
+      "text": " The weather's never good though, we stay on the borders if the mist's on the Yieldens, we never get the good weather. And as you can see today, there's no sunshine. It's a typical Scottish Borders day.",
+      "tokens": [
+        50914, 440, 5503, 311, 1128, 665, 1673, 11, 321, 1754, 322, 264, 16287,
+        498, 264, 3544, 311, 322, 264, 398, 1789, 694, 11, 321, 1128, 483, 264,
+        665, 5503, 13, 400, 382, 291, 393, 536, 965, 11, 456, 311, 572, 25219,
+        13, 467, 311, 257, 7476, 13777, 363, 10400, 786, 13, 51364
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.3381785246042105,
+      "compression_ratio": 1.7148936170212765,
+      "no_speech_prob": 0.42575791478157043,
+      "words": [
+        {
+          "word": " The",
+          "start": 11.14,
+          "end": 11.2,
+          "probability": 0.9628615975379944
+        },
+        {
+          "word": " weather's",
+          "start": 11.2,
+          "end": 11.52,
+          "probability": 0.8464066982269287
+        },
+        {
+          "word": " never",
+          "start": 11.52,
+          "end": 11.7,
+          "probability": 0.9967312812805176
+        },
+        {
+          "word": " good",
+          "start": 11.7,
+          "end": 11.92,
+          "probability": 0.9967107772827148
+        },
+        {
+          "word": " though,",
+          "start": 11.92,
+          "end": 12.16,
+          "probability": 0.5305551290512085
+        },
+        {
+          "word": " we",
+          "start": 12.3,
+          "end": 12.34,
+          "probability": 0.33303770422935486
+        },
+        {
+          "word": " stay",
+          "start": 12.34,
+          "end": 12.48,
+          "probability": 0.3223027288913727
+        },
+        {
+          "word": " on",
+          "start": 12.48,
+          "end": 12.58,
+          "probability": 0.640080451965332
+        },
+        {
+          "word": " the",
+          "start": 12.58,
+          "end": 12.72,
+          "probability": 0.9940944314002991
+        },
+        {
+          "word": " borders",
+          "start": 12.72,
+          "end": 12.92,
+          "probability": 0.9566353559494019
+        },
+        {
+          "word": " if",
+          "start": 12.92,
+          "end": 13.1,
+          "probability": 0.31457069516181946
+        },
+        {
+          "word": " the",
+          "start": 13.1,
+          "end": 13.26,
+          "probability": 0.6135283708572388
+        },
+        {
+          "word": " mist's",
+          "start": 13.26,
+          "end": 13.56,
+          "probability": 0.5865519940853119
+        },
+        {
+          "word": " on",
+          "start": 13.56,
+          "end": 13.68,
+          "probability": 0.9956003427505493
+        },
+        {
+          "word": " the",
+          "start": 13.68,
+          "end": 13.78,
+          "probability": 0.9795334339141846
+        },
+        {
+          "word": " Yieldens,",
+          "start": 13.78,
+          "end": 14.4,
+          "probability": 0.42092596491177875
+        },
+        {
+          "word": " we",
+          "start": 14.68,
+          "end": 14.7,
+          "probability": 0.9638062119483948
+        },
+        {
+          "word": " never",
+          "start": 14.7,
+          "end": 14.92,
+          "probability": 0.9646385908126831
+        },
+        {
+          "word": " get",
+          "start": 14.92,
+          "end": 15.08,
+          "probability": 0.9957160353660583
+        },
+        {
+          "word": " the",
+          "start": 15.08,
+          "end": 15.22,
+          "probability": 0.9762192368507385
+        },
+        {
+          "word": " good",
+          "start": 15.22,
+          "end": 15.36,
+          "probability": 0.9982613921165466
+        },
+        {
+          "word": " weather.",
+          "start": 15.36,
+          "end": 15.6,
+          "probability": 0.9977366924285889
+        },
+        {
+          "word": " And",
+          "start": 15.76,
+          "end": 15.84,
+          "probability": 0.5952183604240417
+        },
+        {
+          "word": " as",
+          "start": 15.84,
+          "end": 15.92,
+          "probability": 0.9767357707023621
+        },
+        {
+          "word": " you",
+          "start": 15.92,
+          "end": 16,
+          "probability": 0.9990109205245972
+        },
+        {
+          "word": " can",
+          "start": 16,
+          "end": 16.18,
+          "probability": 0.9922479391098022
+        },
+        {
+          "word": " see",
+          "start": 16.18,
+          "end": 16.28,
+          "probability": 0.998566210269928
+        },
+        {
+          "word": " today,",
+          "start": 16.28,
+          "end": 16.6,
+          "probability": 0.9586024284362793
+        },
+        {
+          "word": " there's",
+          "start": 16.68,
+          "end": 16.84,
+          "probability": 0.9903832376003265
+        },
+        {
+          "word": " no",
+          "start": 16.84,
+          "end": 17.02,
+          "probability": 0.9978138208389282
+        },
+        {
+          "word": " sunshine.",
+          "start": 17.02,
+          "end": 17.46,
+          "probability": 0.9982004165649414
+        },
+        {
+          "word": " It's",
+          "start": 18.12,
+          "end": 18.32,
+          "probability": 0.9936135709285736
+        },
+        {
+          "word": " a",
+          "start": 18.32,
+          "end": 18.44,
+          "probability": 0.9917783141136169
+        },
+        {
+          "word": " typical",
+          "start": 18.44,
+          "end": 18.72,
+          "probability": 0.9985051155090332
+        },
+        {
+          "word": " Scottish",
+          "start": 18.72,
+          "end": 19.16,
+          "probability": 0.9935997724533081
+        },
+        {
+          "word": " Borders",
+          "start": 19.16,
+          "end": 19.52,
+          "probability": 0.808532327413559
+        },
+        {
+          "word": " day.",
+          "start": 19.52,
+          "end": 19.88,
+          "probability": 0.5790210366249084
+        }
+      ],
+      "speaker_label": "speaker_1"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 21.54,
+      "end": 22.12,
+      "text": " Fantastic!",
+      "tokens": [51364, 21320, 0, 51464],
+      "temperature": 0,
+      "avg_logprob": -0.3381785246042105,
+      "compression_ratio": 1.7148936170212765,
+      "no_speech_prob": 0.42575791478157043,
+      "words": [
+        {
+          "word": " Fantastic!",
+          "start": 21.54,
+          "end": 22.12,
+          "probability": 0.1461062878370285
+        }
+      ],
+      "speaker_label": "speaker_1"
+    }
+  ],
+  "language": "en"
+}

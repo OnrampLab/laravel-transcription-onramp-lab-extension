@@ -1,5 +1,5 @@
 ARG PHP_EXTENSIONS="pdo_sqlite"
-FROM thecodingmachine/php:8.0-v4-slim-apache
+FROM thecodingmachine/php:8.1-v4-slim-apache
 
 USER root
 
@@ -16,4 +16,4 @@ RUN sudo mv phive.phar /usr/local/bin/phive
 
 USER docker
 
-RUN phive install --force-accept-unsigned --trust-gpg-keys 67F861C3D889C656 phpDocumentor
+RUN phive install --force-accept-unsigned --trust-gpg-keys 8AC0BAA79732DD42 phpDocumentor

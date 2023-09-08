@@ -1,9 +1,9 @@
 <?php
 
-namespace OnrampLab\LaravelPackageTemplate\Tests;
+namespace OnrampLab\TranscriptionOnrampLabExtension\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use OnrampLab\LaravelPackageTemplate\LaravelPackageTemplateServiceProvider;
+use OnrampLab\TranscriptionOnrampLabExtension\TranscriptionOnrampLabExtensionServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
@@ -25,13 +25,24 @@ class TestCase extends OrchestraTestCase
     }
 
     /**
+     * Define database migrations.
+     *
+     * @return void
+     */
+    protected function defineDatabaseMigrations()
+    {
+        $this->artisan('vendor:publish', ['--tag' => 'transcription-migrations']);
+        $this->loadLaravelMigrations();
+    }
+
+    /**
      * @param \Illuminate\Foundation\Application $app
      * @return array
      */
     protected function getPackageProviders($app)
     {
         return [
-            LaravelPackageTemplateServiceProvider::class,
+            TranscriptionOnrampLabExtensionServiceProvider::class,
         ];
     }
 }

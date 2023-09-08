@@ -1,17 +1,11 @@
 {
-    "name": "onramplab/laravel-package-template",
-    "description": "An laravel template",
+    "name": "onramplab/laravel-transcription-onramp-lab-extension",
+    "description": "An extension of Laravel Transcription package built for OnrampLab",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "template",
-        "laravel",
-        "package",
-        "skeleton",
-        "boilerplate",
-        "laravel template",
-        "package template",
-        "laravel package template"
+        "laravel transcription",
+        "extension"
     ],
     "authors": [
         {
@@ -22,8 +16,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=8.0",
-        "illuminate/support": "^8.0|^9.0"
+        "php": ">=8.1",
+        "aws/aws-sdk-php": "^3.269",
+        "illuminate/support": "^8.0|^9.0",
+        "onramplab/laravel-transcription": "^0.1"
     },
     "require-dev": {
         "mockery/mockery": "^1.5",
@@ -40,21 +36,21 @@
     },
     "autoload": {
         "psr-4": {
-            "OnrampLab\\LaravelPackageTemplate\\": "src/"
+            "OnrampLab\\TranscriptionOnrampLabExtension\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OnrampLab\\LaravelPackageTemplate\\Tests\\": "tests"
+            "OnrampLab\\TranscriptionOnrampLabExtension\\Tests\\": "tests"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.0-dev"
+            "dev-main": "0.x-dev"
         },
         "laravel": {
             "providers": [
-                "OnrampLab\\LaravelPackageTemplate\\LaravelPackageTemplateServiceProvider"
+                "OnrampLab\\TranscriptionOnrampLabExtension\\TranscriptionOnrampLabExtensionServiceProvider"
             ]
         }
     },
